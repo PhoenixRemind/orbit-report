@@ -30,8 +30,8 @@ export class AppComponent {
               fetchedSatellites[i].operational
             );
             this.sourceList.push(newSatellites);
-            this.displayList = this.sourceList.slice(0);
           }
+          this.displayList = this.sourceList.slice(0);
        }.bind(this));
     }.bind(this));
  }
