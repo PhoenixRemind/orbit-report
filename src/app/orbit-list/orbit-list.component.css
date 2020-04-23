@@ -17,8 +17,8 @@ table {
 }
 
 .header-row {
-    background: #34495E;
-    color: #fff
+    background: #7f4491;
+    color: #7f4491;
 }
 
 th, td {
@@ -30,3 +30,7 @@ th, td {
 tr:nth-child(odd) { 
     background-color: rgb(91, 194, 91); 
 } 
+
+h3 {
+    color: #7f4491;
+}
